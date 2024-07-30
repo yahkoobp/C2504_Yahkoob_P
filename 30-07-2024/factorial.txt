@@ -2,7 +2,7 @@
 
 pseudo routine:
 function FindFactorial(num){
-    fact = 1
+    set fact = 1
     for i from 1 to n do
       fact = fact * i
     return fact

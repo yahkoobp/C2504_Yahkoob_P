@@ -1,0 +1,22 @@
+pseudo routine:
+
+function LargestFromArray(array)
+{
+ set max = 0
+ for each element in array
+   if element > max then
+     set max = element
+ return max
+}
+
+test routine:
+function testLargestElementFromArray{
+    input array
+    max = largetElementFrmArray(array)
+    print(max)
+}
+
+driver code :
+function __main__(){
+  testLargestFromArray()
+}

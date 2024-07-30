@@ -2,16 +2,13 @@
 
 pseudo : routine
 function isPerfectNumber(num){
-    sum = 0
+    set sum = 0
     temp = n
     for i from 1 to n-1 do
       if temp % i ==0
          sum = sum + i
 
-    if sum == n
-      return true
-    else 
-      return false
+    return sum == n
 }
 
 pseudo: routine test

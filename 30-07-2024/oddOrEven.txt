@@ -4,6 +4,7 @@ pseudo : routine
 function oddOrEven(num){
     if num % 2 == 0
       print("odd")
+    end if
     else:
       print("even")
 }

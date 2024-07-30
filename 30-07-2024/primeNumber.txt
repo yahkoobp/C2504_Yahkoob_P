@@ -3,19 +3,15 @@ pseudo : routine
 
 function isPrimeNumber(num)
 {
-    isPrime = 1
+    set isPrime = 1
     if num ==2
       return true
     for i from 2 to n/2 do
       if num % i ==0
         isPrime = 0
         break
-    isPrime = 1
 
-    if isPrime ==1
-      return true
-    else
-      return false
+    return isPrime
 }
 
 pseudo test routine:

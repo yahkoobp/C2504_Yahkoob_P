@@ -2,15 +2,31 @@
 pseudo: routine:
 
 function printFibonacci(limit){
-    term1 = 0
-    term2 = 1
+    set term1 = 0
+    set term2 = 1
    for i from 0 to n do
      if i==0
        print(i)
      else if i==1
        print(i)
     else
+      term3 = term1 + term2
+      print(term3)
+      term1 = term2
+      term2 = term3
       
 }
 
+
+pseudo : routine test
+function testPrintFibonacci(){
+  input limit
+  printFibonacci(limit)
+
+}
+
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+  testPrintFibonacci()
+}
 
