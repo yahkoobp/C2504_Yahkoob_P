@@ -1,0 +1,22 @@
+02.To find the square of a number
+
+pseudo code : routine
+function findSquare(num)
+	square = num * num *
+	return square
+
+routine test :
+function test1FindSquare()
+	input num
+	square = findSquare(num)
+	print square
+
+function test2FindSquare()
+	input num
+	sqaure = findSquare(num)
+	print square
+
+pseudo: test routine in the driver code / main function 
+function __Main__()
+        test1FindSquare()
+		test2FindSquare()

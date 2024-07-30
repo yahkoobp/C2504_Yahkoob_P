@@ -1,0 +1,22 @@
+05.check whether a number is divisible by 3
+
+routine : 
+function isDivisibleBy3(num){
+    if num % 3 == 0
+       return true
+    else
+       return false
+}
+
+routine test:
+function testIsDivisibleBy3(){
+    input num
+    if isDivisibleBy3()
+       print("the number is divisible by 3")
+    else
+       print("the number is not divisible by3")
+}
+
+function __main__(){
+    testIsDivisibleBy3()
+}

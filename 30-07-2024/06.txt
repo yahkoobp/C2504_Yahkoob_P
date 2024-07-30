@@ -1,0 +1,22 @@
+05.check whether a number is divisible by 27
+
+routine : 
+function isDivisibleBy27(num){
+    if num % 27 == 0
+       return true
+    else
+       return false
+}
+
+routine test:
+function testIsDivisibleBy27(){
+    input num
+    if isDivisibleBy3()
+       print("the number is divisible by 27")
+    else
+       print("the number is not divisible by 27")
+}
+
+function __main__(){
+    testIsDivisibleBy27()
+}

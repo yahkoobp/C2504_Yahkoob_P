@@ -1,0 +1,29 @@
+01.to find average of two numbers
+
+pseudo code : routine
+function averageOfTwo(num1 , num2)
+	sum = number1 + number2 
+	average = sum / 2
+	return average 
+
+routine test :
+function test1AverageOfTwo()
+	input num1
+	input num2
+	average = averageofTwo(num1 , num2)
+	print average
+
+function test2AverageOfTwo()
+	input num1
+	input num2
+	average = averageofTwo(num1 , num2)
+	print average
+
+pseudo: test routine in the driver code / main function 
+function __Main__()
+        test1AverageOfTwo()
+		test2AverageOfTwo()
+
+
+
+

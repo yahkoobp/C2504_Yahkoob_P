@@ -1,0 +1,30 @@
+09.check a number is palindrome
+
+routine:
+function isPalindrome(num){
+    rev = 0
+    temp = num
+    while temp > 0 do 
+       rem = temp % 10
+       rev = rev * 10 + rem
+       temp = temp % 10
+
+    if temp == num
+       return true
+    else
+       return false
+    
+}
+
+routine test:
+function testIsPalindrome(){
+    input num
+    if isPalindrome(num)
+       print("the number is palindrome")
+    else
+       print("the number is not palindrome")
+}
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+    testIsPalindrome()
+}

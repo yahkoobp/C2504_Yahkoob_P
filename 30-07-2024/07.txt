@@ -1,0 +1,18 @@
+07.To print N Natural numbers
+
+routine:
+function printNnumbers(limit){
+    for i from 0 to limit do
+       print(i)
+}
+
+routine test:
+function testPrintNnumbers(){
+    input limit
+    printNnumbers(limit)
+}
+
+pseudo: test routine in the driver code / main function 
+function __main__(){
+    testPrintNnumbers()
+} 

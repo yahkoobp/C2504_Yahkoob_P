@@ -1,0 +1,20 @@
+04.swap two numbers
+ 
+pseudocode:routine
+function swapTwoNumbers(num1 , num2){
+    temp = num1
+    num1 = num2
+    num2 = temp
+    print (num1 , num2)
+}
+
+pseudocode:routine test
+function testswapTwoNumbers(){
+    input num1
+    input num2
+    swapTwoNumbers(num1 , num2)
+}
+
+function __main__(){
+    testswapTwoNumbers()
+}

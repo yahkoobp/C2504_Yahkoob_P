@@ -1,0 +1,30 @@
+09.to check for armstrong numbers
+
+pseudo :routine:
+function isArmstrongNumber(num){
+    temp = num
+    sum = 0
+    while temp > 0 do
+      rem = tem % 10
+      sum = sum + rem ^ no_of_digits
+      temp = temp ?10
+
+    if sum == num
+      return true
+    else
+      return false
+}
+
+pseudo :routine test:
+function testIsArmstrongNumber(){
+    input num
+    if isArmstrongNumber(num)
+      print("the given number is armstrong")
+    else
+      print("the given number is not armstrong)
+}
+
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+    testIsArmstrongNumber()
+}

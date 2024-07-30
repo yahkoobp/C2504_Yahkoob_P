@@ -1,0 +1,22 @@
+02.To find the cube of a number
+
+pseudo code : routine
+function findCube(num)
+	cube = num * num * num
+	return cube
+
+routine test :
+function test1FindCube()
+	input num
+	cube = findCube(num)
+	print cube
+
+function test2FindCube()
+	input num
+	cube = findCube(num)
+	print cube
+
+pseudo: test routine in the driver code / main function 
+function __Main__()
+        test1AverageOfTwo()
+		test2AverageOfTwo()
