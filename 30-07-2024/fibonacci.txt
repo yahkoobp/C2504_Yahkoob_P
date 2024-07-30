@@ -1,0 +1,16 @@
+18.Fibonacci series
+pseudo: routine:
+
+function printFibonacci(limit){
+    term1 = 0
+    term2 = 1
+   for i from 0 to n do
+     if i==0
+       print(i)
+     else if i==1
+       print(i)
+    else
+      
+}
+
+

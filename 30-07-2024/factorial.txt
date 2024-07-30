@@ -1,0 +1,22 @@
+17.factorial of a number
+
+pseudo routine:
+function FindFactorial(num){
+    fact = 1
+    for i from 1 to n do
+      fact = fact * i
+    return fact
+}
+
+pseudo testroutine:
+
+function testfindFactorial(){
+    input num
+    fact = FindFactorial(num)
+    print(fact)
+}
+
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+    testfindFactorial()
+}

@@ -1,0 +1,29 @@
+11.check for perfect numbers
+
+pseudo : routine
+function isPerfectNumber(num){
+    sum = 0
+    temp = n
+    for i from 1 to n-1 do
+      if temp % i ==0
+         sum = sum + i
+
+    if sum == n
+      return true
+    else 
+      return false
+}
+
+pseudo: routine test
+function testIsPerfectNumber(){
+    input num
+    if isPerfectNumber(num)
+      print("perfect number)
+    else
+      print("not perfect number")
+}
+
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+    testIsPerfectNumber()
+}

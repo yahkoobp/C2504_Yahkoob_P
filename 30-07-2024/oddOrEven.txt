@@ -1,0 +1,20 @@
+12.Odd or even
+
+pseudo : routine
+function oddOrEven(num){
+    if num % 2 == 0
+      print("odd")
+    else:
+      print("even")
+}
+
+test routine:
+function testOddOrEven(){
+    input num 
+    oddOrEven(num)
+}
+
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+    testOddOrEven()
+}

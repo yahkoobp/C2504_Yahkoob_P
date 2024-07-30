@@ -1,0 +1,27 @@
+16.Reverse the number
+
+pseudo routine:
+function reverse(num){
+    rev = 0
+    temp = num
+    while temp > 0 do 
+       rem = temp % 10
+       rev = rev * 10 + rem
+       temp =temp/10
+    
+    return rev
+}
+
+test routine:
+
+function testReverse(){
+    input num
+    reverse = reverse(num)
+    print(reverse)
+}
+
+pseudo: test routine in the driver code / main function 
+
+function __Main__(){
+    testReverse()
+}

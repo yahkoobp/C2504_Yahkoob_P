@@ -1,0 +1,33 @@
+10.to check for prime numbers
+pseudo : routine
+
+function isPrimeNumber(num)
+{
+    isPrime = 1
+    if num ==2
+      return true
+    for i from 2 to n/2 do
+      if num % i ==0
+        isPrime = 0
+        break
+    isPrime = 1
+
+    if isPrime ==1
+      return true
+    else
+      return false
+}
+
+pseudo test routine:
+function testIsPrimeNumber(){
+    input num
+    if isPrimeNumber(num)
+      print("the number is prime")
+    else
+      print("the number is not prime)
+}
+
+pseudo: test routine in the driver code / main function 
+function __Main__(){
+    testIsPrimeNumber()
+}
