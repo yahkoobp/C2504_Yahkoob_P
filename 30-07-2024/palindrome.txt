@@ -21,6 +21,7 @@ function testIsPalindrome(){
        print("the number is palindrome")
     else
        print("the number is not palindrome")
+    end if
 }
 pseudo: test routine in the driver code / main function 
 function __Main__(){
