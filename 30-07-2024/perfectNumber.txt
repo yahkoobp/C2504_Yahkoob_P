@@ -18,6 +18,7 @@ function testIsPerfectNumber(){
       print("perfect number)
     else
       print("not perfect number")
+    end if
 }
 
 pseudo: test routine in the driver code / main function 
