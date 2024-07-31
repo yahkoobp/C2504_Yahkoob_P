@@ -1,0 +1,191 @@
+1)
+
+function CalculateTotalCost(prices , discountValue , discountPercentage){
+	double total = 0;
+	int num;
+   	num = length(prices)
+	for int i from 0 to num-1{
+    		total = total + i
+	if total > discountValue
+        	discountedAmount = ApplyDiscount(discountPercentage , total)
+		return discountedAmount
+        else
+                return total
+
+
+function ApplyDiscount(float discountPercentage , float sellingPrice){
+	double discount
+	discount = sellingPrice * discountPercentage
+        return discount
+}
+
+function testCalculateTotalCost(){
+	double prices ,discountValue , discountPercentage , total;
+	double prices
+	double discountValue
+	double discoutPercentage
+
+	total = CalculateTotalCost(prices , discountValue , discountPercentage)
+        print(total)
+}
+
+function __Main()__{
+	testCalculateTotalCost()
+}
+
+2)
+
+1.input double num1 
+2.input double num2
+3.input double choice
+4.if choice is addition
+	perform addition 
+	double result = num1 + num2
+5.else if choice is substraction
+	perform substraction
+	double result = num1 - num2
+6.else if choice is multiplication
+	perform multiplication
+	double result = num1 * num2
+7.else if choice is division
+	perform division
+	double result = num1 / num2
+8.else
+	print("invalid choice")
+9.print result
+
+3)
+
+function FizzBuzz()
+{
+   for i from 1 to 100 do
+	if i%3==0 and i%5==0
+		print("FizzBuzz")
+	else if i%3==0
+		print("Fizz")
+	else if i%5==0
+		print("Buzz")
+        else
+		print(i)
+       end if
+   end
+}
+4)
+
+function isPalindrome(string){
+    length = length(string)
+    set last_index = length - 1
+    set isPal = 1
+    for i from 0 to length-1 / 2 do 
+        if string[i] != string[last_index]
+		set isPal = 0
+                break
+        last_index = last_index - 1
+        end if
+    end for
+
+    return isPal
+
+    }
+
+function testisPalindrome(){
+	input string str
+        if isPalindrome(str)
+		print("palindrome")
+	else
+		print("not palindrome")
+}
+
+5)
+
+function largestFromArray(int array){
+	int max = 0
+	int length = length(array)
+	for int i from 0 to length do
+		if array[i] > max then
+			set max = array[i]
+		end if
+        return max
+}
+
+function testLargestFromArray(){
+	input int array
+	int largest = largestFromArray(array)
+        print(largest)
+}
+
+function __Main()__{
+   testLargestFromArray()
+}
+
+6)
+
+function Deposit(long accountNumber , int amount){
+	if(accountNumber is valid){
+        	fetch total_amount
+		set total_amount = total_amount + amount
+		print("money deposited successfully")
+		return total_amount
+        else{
+		print("Account is not valid")
+                return -1
+		}
+
+}
+
+function Withdraw(long accountNumber , int amount){
+	if(accountNumber is valid){
+        	fetch total_amount
+		set total_amount = total_amount - amount
+                print("money withdrawed successfully")
+		return total_amount
+        else{
+		print("Account is not valid")
+                return -1
+		}
+}
+
+function DisplayBalance(long accountNumber){
+	if(accountNumber is valid){
+        	fetch total_amount
+		return total_amount
+        else{
+		print("Account is not valid")
+                return -1
+		}
+}
+
+function __Main()__{
+	input long accountNumber
+	input int amount
+	input choice
+	if choice is deposit
+		 Deposit(accountNumber ,amount)
+	else if choice is withdraw
+		Withdraw(accountNumber ,amount)
+	else if choice is display
+		display(accountNumber)
+	else
+		print("invalid choice")
+}
+
+7)
+BEGIN
+DECALRE i as INT
+SET i = 2
+WHILE i <= 10
+	print(i)
+  	i = i + 2
+END WHILE
+END
+		
+		
+
+	
+
+        
+
+
+
+
+
