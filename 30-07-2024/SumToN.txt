@@ -1,6 +1,6 @@
 pseudo routine:
 function sumOfNnumbers(limit)
-  sum = 0
+ set sum = 0
   for i from 1 to limit do
     sum = sum + i
   return sum
