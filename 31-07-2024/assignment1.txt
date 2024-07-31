@@ -109,6 +109,7 @@ function largestFromArray(int array){
 		if array[i] > max then
 			set max = array[i]
 		end if
+        end for
         return max
 }
 
