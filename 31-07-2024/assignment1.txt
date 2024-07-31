@@ -1,7 +1,7 @@
-1)
+1)pseudocode for calculating the total cost of items in a shopping cart , including applying a discount if total exceeds a certain amount
 
 function CalculateTotalCost(prices , discountValue , discountPercentage){
-	double total = 0;
+	DECLARE double total = 0;
 	int num;
    	num = length(prices)
 	for int i from 0 to num-1{
@@ -11,6 +11,7 @@ function CalculateTotalCost(prices , discountValue , discountPercentage){
 		return discountedAmount
         else
                 return total
+        end if
 
 
 function ApplyDiscount(float discountPercentage , float sellingPrice){
@@ -33,28 +34,31 @@ function __Main()__{
 	testCalculateTotalCost()
 }
 
-2)
+2)Pseudocode for simple calculator
 
-1.input double num1 
-2.input double num2
-3.input double choice
-4.if choice is addition
+1.DECLARE num1 AS DOUBLE
+2.DECLARE num2 AS DOUBLE
+3.INPUT num1 
+4.INPUT num2
+5.INPUT choice
+6.if choice is addition
 	perform addition 
 	double result = num1 + num2
-5.else if choice is substraction
+7.else if choice is substraction
 	perform substraction
 	double result = num1 - num2
-6.else if choice is multiplication
+8.else if choice is multiplication
 	perform multiplication
 	double result = num1 * num2
-7.else if choice is division
+9.else if choice is division
 	perform division
 	double result = num1 / num2
-8.else
+10.else
 	print("invalid choice")
-9.print result
+end if
+11.print result
 
-3)
+3)Pseudocode for FIZZBUZZ problem
 
 function FizzBuzz()
 {
@@ -70,7 +74,7 @@ function FizzBuzz()
        end if
    end
 }
-4)
+4)Pseudocode to check whether a given string is palindrome or not
 
 function isPalindrome(string){
     length = length(string)
@@ -96,7 +100,7 @@ function testisPalindrome(){
 		print("not palindrome")
 }
 
-5)
+5)Pseudocode to find largest element from an array
 
 function largestFromArray(int array){
 	int max = 0
@@ -118,7 +122,7 @@ function __Main()__{
    testLargestFromArray()
 }
 
-6)
+6)Pseudocode to manage a simple bank account that allows deposits , withdrwals and check balance
 
 function Deposit(long accountNumber , int amount){
 	if(accountNumber is valid){
@@ -169,7 +173,7 @@ function __Main()__{
 		print("invalid choice")
 }
 
-7)
+7)Pseudocode to print first 10 even numbers
 BEGIN
 DECALRE i as INT
 SET i = 2
