@@ -1,0 +1,14 @@
+Q01. print series 10, 12, 14, 16, ... N terms 
+using for loop
+    
+function PrintSeries10_12_14(numOfTerms)
+function TestPrintSeries10_12_14()
+function PrintSeries10_12_14(numOfTerms)
+    term = 10
+    for I = 1; I <= numOfTerms ; I++ 
+        Print term + ' '
+        term = term + 2
+    end for 
+function TestPrintSeries10_12_14()
+    Input numOfTerms
+    PrintSeries10_12_14(numOfTerms)
