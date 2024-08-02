@@ -1,0 +1,68 @@
+Q04. print the N th term in the series 21, 22, 24, 27, 31, ...
+using for loop
+
+function GetNthTerm_21_22_24_27(N)    
+    term = 21
+    difference = 1
+    for I = 1; I <= N ; I++   
+        if I == N
+            break
+        end if         
+        
+        term = term + difference
+        difference = difference + 1
+    end for 
+    return term
+function TestGetNthTerm_21_22_24_27()
+    Input N                             
+    nthTerm = GetNthTerm_21_22_24_27(N)
+    Print nthTerm
+
+function GetNthTerm_21_22_24_27(N)    
+    term = 21
+    
+    for I = 1; I <= N ; I++   
+        if I == N
+            break
+        end if         
+        
+        term = term + I 
+       
+    end for 
+    return term
+
+function GetNthTerm_21_22_24_27(N)    
+    term = 21
+    for I = 1; I < N ; I++ //run N-1 times
+        term = term + I        //difference is I only 
+    end for 
+    return term
+
+
+
+term = term + I 
+term += I       
+[Minnu]
+function GetNthTerm_21_22_24_27(N)    
+    term = 21
+    for I = 1; I < N ; I++ 
+        term += I        
+    end for 
+    return term
+
+static int GetNthTerm_21_22_24_27(int N) 
+{
+    int term = 21;  //21 22 24 27 31
+    int difference = 1;//1 2 3 4 5
+    for (int I = 1; I <= N; I++)
+    {
+        if( I == N )
+        {
+            break;
+        }
+        //
+        term = term + difference;
+        difference = difference + 1;
+    }
+    return term;
+}
