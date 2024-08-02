@@ -1,0 +1,17 @@
+Q02. print series 10, 12, 14, 16, ... N terms 
+using while looping
+
+function PrintSeries10_12_14(numOfTerms)
+function TestPrintSeries10_12_14()
+
+function PrintSeries10_12_14(numOfTerms)
+    term = 10
+    I = 1
+    while  I <= numOfTerms  
+        Print term + ' '
+        term = term + 2
+        I++
+    end while 
+function TestPrintSeries10_12_14()
+    Input numOfTerms
+    PrintSeries10_12_14(numOfTerms)
