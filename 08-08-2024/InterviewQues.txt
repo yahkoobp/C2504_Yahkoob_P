@@ -1,0 +1,131 @@
+Introduction to Database and RDBMS
+
+ 1. What is a database ?
+ 2. Explain what a Relational Database Management System (RDBMS) ?
+ 3. What are the advantages using a database?
+ 4. Give some examples for common RDBMS systems ?
+
+Characteristics of Database Management System
+
+ 5. What are the key characteristics of a Database Management System (DBMS)?
+ 6. How does DBMS allows load balancing ?
+
+Data Modeling
+ 7. Explain the different types of data models.
+ 8. Explain the difference between relational and hierarchical data model
+
+Relational Data Modeling
+ 9. Explain the components of relational data modeling
+10.How do you represent relationships in a relational model?
+
+Normalization
+11. Explain about normalization
+12. Explain about different levels of normalization
+13. Explain functional dependency with examples
+14. Explain partial and transitive dependencies with examples
+
+Transactions
+
+15. Explain TCL language
+16. Explain about ACID properties
+17. Explain BEGIN TRANSACTION , COMMIT , SAVEPOINT and ROLLBACK in transaction
+
+Types of Keys
+
+18. List different types of keys in SQL
+19. Explain different types of keys in SQL
+20. Explain the difference between primary key and unique key in SQL
+21. Explain about difference between foreign key and primary key
+
+
+Introduction to SQL
+
+22. What is SQL
+23. Difference between MS SQL and SQL
+24. What are the differences between SQL and NoSQL databases?
+25. Explain different constraints in SQL
+
+SQL Datatypes
+
+26. What are the different data types in SQL
+27. Explain the difference between var() and varchar()
+28. Explain difference between DATETIME and TIMESTAMP in sql
+29. Explain difference between varchar() and nvarchar()
+30. Explain about date function in SQL
+31. Explain the string functions in SQL
+
+SQL Commands (DDL, DML, TCL)
+
+32. Explain DDL , DML and TCL
+33. Explain the difference between DROP and TRUNCATE
+34. Explain the difference between DELETE and TRUNCATE in SQL
+ 
+SQL Operator
+
+35. Explain different types of operators in SQL
+36. Explain about arithmetic operators in SQL
+37. Explain about relational operators in SQL
+38. Explain about logical operators in SQL
+
+SQL Table
+
+39. How do you create a table in SQL?
+40. What is the syntax for altering a table?
+41. What are all the ways to define constraints in SQL
+42. How do you define a foreign key constraint in a table?
+43. What is identity function in SQL
+
+Select Statement
+
+44. Explain select statement in SQL with examples
+45. Give the syntax for select command
+46. Explain the use of ORDER BY in SQL with examples
+47. Explain the use of WHERE in SQL
+48. Explain the use of IN in SQL with examples
+49. Explain the use of LIKE in sql
+
+Insert Statement
+
+50. Explain INSERT statement in SQL
+51. Give the syntax for INSERT statement with examples
+52. Explain how can we insert data from one table in to another
+
+Update Statement
+
+53. Explain UPDATE statement in SQL
+54. Give the syntax for UPDATE statement with examples
+55. How can we update a single column in SQL
+
+DeleteStatement
+
+56. Explain DELETE statement in SQL
+57. Give the syntax for DELETE statement with examples
+
+Views
+
+58. What is a VIEW
+59. Explain the advantage of VIEW in SQL
+60. Give the syntax TO create VIEW in SQL with example
+
+Sub Queries
+
+61. Explain subQueries in SQL
+62. Explain types of subqueries
+63. Give the syntax for subqueries
+
+Aggregate Function
+
+64. Explain different aggregate functions in SQL (MIN , MAX , COUNT , AVG , SUM )
+65. Explain GROUP BY and HAVING clauses in SQL with examples
+
+
+SQL Joins
+
+66. Explain JOIN IN sql
+67. What are the types of JOIN s in SQL with examples
+
+indexes
+
+68. What indexing in sql
+69. Explain different types of indexes
+70. How indexing helps in query optimization 
