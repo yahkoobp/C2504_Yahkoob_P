@@ -21,10 +21,10 @@ namespace ComplexNumber
 
         public ComplexNumber AddComplexNumber(ComplexNumber other)
         {
-            ComplexNumber result = this;
-            this.Real += other.Real;
-            this.Imaginary += other.Imaginary;
-            return result;
+             ComplexNumber result = new ComplexNumber(0,0);
+             result.Real = this.Real + other.Real;
+             result.Imaginary = this.Imaginary + other.Imaginary;
+             return result;
         }
 
         public override string ToString()
