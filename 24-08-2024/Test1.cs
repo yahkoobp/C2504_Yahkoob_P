@@ -87,7 +87,7 @@ namespace Test1
                 int minIndex = i;
                 for (int j = i + 1; j < N; j++)
                 {
-                    if (int.Parse(vitalSigns[j].BloodPressure) < int.Parse(vitalSigns[minIndex].BloodPressure))
+                    if (int.Parse(vitalSigns[j].BloodPressure.Split('/')[0]) < int.Parse(vitalSigns[minIndex].BloodPressure.Split('/')[0]))
                     {
                         minIndex = j;
                     }
